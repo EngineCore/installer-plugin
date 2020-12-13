@@ -1,0 +1,29 @@
+{
+  "name": "EngineCore/installer-plugin",
+  "description": "The composer plugin for EngineCore extension installer",
+  "keywords": [
+    "engine-core",
+    "composer",
+    "extension installer"
+  ],
+  "type": "composer-plugin",
+  "authors": [
+    {
+      "name": "E-Kevin",
+      "email": "e-kevin@qq.com"
+    }
+  ],
+  "license": "BSD 3-Clause",
+  "homepage": "https://github.com/EngineCore/installer-plugin",
+  "require": {
+    "composer-plugin-api": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "EngineCore\\composer\\": ""
+    }
+  },
+  "extra": {
+    "class": "EngineCore\\composer\\Plugin"
+  }
+}
