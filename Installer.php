@@ -1,6 +1,6 @@
 <?php
 /**
- * @link https://github.com/EngineCore/installer-plugin
+ * @link https://github.com/engine-core/installer-plugin
  * @copyright Copyright (c) 2020 E-Kevin
  * @license BSD 3-Clause License
  */
@@ -21,7 +21,7 @@ class Installer extends LibraryInstaller
     /**
      * {@inheritDoc}
      */
-    public function getPackageBasePath(PackageInterface $package)
+    public function getInstallPath(PackageInterface $package)
     {
         return './extensions/' . $package->getPrettyName();
     }
@@ -31,7 +31,7 @@ class Installer extends LibraryInstaller
      */
     public function supports($packageType)
     {
-        return 'ec-extensions' === $packageType;
+        return 'ec-extension' === $packageType;
     }
     
 }

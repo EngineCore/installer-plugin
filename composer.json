@@ -1,5 +1,5 @@
 {
-  "name": "EngineCore/installer-plugin",
+  "name": "engine-core/installer-plugin",
   "description": "The composer plugin for EngineCore extension installer",
   "keywords": [
     "engine-core",
@@ -13,8 +13,8 @@
       "email": "e-kevin@qq.com"
     }
   ],
-  "license": "BSD 3-Clause",
-  "homepage": "https://github.com/EngineCore/installer-plugin",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/engine-core/installer-plugin",
   "require": {
     "composer-plugin-api": "^1.0"
   },
@@ -24,6 +24,9 @@
     }
   },
   "extra": {
-    "class": "EngineCore\\composer\\Plugin"
+    "class": "EngineCore\\composer\\Plugin",
+    "branch-alias": {
+      "dev-main": "1.0.x-dev"
+    }
   }
 }

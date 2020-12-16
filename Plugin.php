@@ -1,6 +1,6 @@
 <?php
 /**
- * @link https://github.com/EngineCore/installer-plugin
+ * @link https://github.com/engine-core/installer-plugin
  * @copyright Copyright (c) 2020 E-Kevin
  * @license BSD 3-Clause License
  */
